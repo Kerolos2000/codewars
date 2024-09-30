@@ -69,3 +69,29 @@ a2 = ["lively", "alive", "harp", "sharp", "armstrong"];
 inArray = (a1, a2) => a1.filter((x) => a2.some((y) => y.includes(x))).sort();
 console.log(inArray(a1, a2));
 */
+
+// partsSums = (ls) => {
+//   fArr = [];
+//   while (ls.length > 0) {
+//     fArr.push(ls.reduce((a, c) => a + c));
+//     ls.splice(0, 1);
+//   }
+//   fArr.push(0);
+//   return fArr;
+// };
+
+/*
+6 kyu Sums of Parts
+https://www.codewars.com/kata/5ce399e0047a45001c853c2b/train/javascript
+const partsSums = (ls) => {
+  fArr = [];
+  let sum = ls.reduce((a, c) => a + c);
+  fArr.push(sum);
+  ls.forEach((num) => {
+    sum -= num;
+    fArr.push(sum);
+  });
+  return fArr;
+};
+console.log("🚀 ~ partsSums:", partsSums([0, 1, 3, 6, 10]));
+*/
