@@ -95,3 +95,49 @@ const partsSums = (ls) => {
 };
 console.log("🚀 ~ partsSums:", partsSums([0, 1, 3, 6, 10]));
 */
+
+/*
+7 kyu Two fighters, one winner.
+https://www.codewars.com/kata/577bd8d4ae2807c64b00045b/train/javascript
+function fighter(name, health, damagePerAttack) {
+  return {
+    name,
+    health,
+    damagePerAttack,
+  };
+}
+function declareWinner(fighter1, fighter2, firstAttacker) {
+  let attacker = firstAttacker === fighter1.name ? fighter1 : fighter2;
+  let defender = firstAttacker === fighter1.name ? fighter2 : fighter1;
+  while (fighter1.health > 0 && fighter2.health > 0) {
+    defender.health -= attacker.damagePerAttack;
+    if (defender.health <= 0) {
+      return attacker.name;
+    }
+    [attacker, defender] = [defender, attacker];
+  }
+}
+
+console.log(declareWinner(fighter("kero", 10, 3), fighter("x", 10, 1), "kero"));
+*/
+
+/*
+6 kyu Unique In Order
+https://www.codewars.com/kata/54e6533c92449cc251001667/solutions/javascript
+const uniqueInOrder = (iterable) => {
+  const ite = Array.isArray(iterable) ? iterable : iterable.split("");
+  let lastChar = ite[0];
+  const finalArr = [lastChar];
+  ite.forEach((e) => {
+    if (e !== lastChar) {
+      lastChar = e;
+      finalArr.push(e);
+    }
+  });
+  return finalArr;
+  return [...iterable].filter((a, i) => a !== iterable[i-1]) // not me but good solve
+};
+console.log(uniqueInOrder("AAAABBBCCDAABBB"));
+console.log(uniqueInOrder("ABBCcAD"));
+console.log(uniqueInOrder([1, 2, 2, 3, 3]));
+*/
