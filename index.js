@@ -207,3 +207,39 @@ rot13 = (str) => {
 };
 console.log(rot13("Guvf vf zl svefg EBG13 rkprepvfr!"));
 */
+
+/*
+8 kyu Total amount of points
+https://www.codewars.com/kata/5bb904724c47249b10000131/solutions/javascript
+points = (games) => {
+  return games.reduce(
+    (a, c) => a + (c[0] > c[2] ? 3 : c[0] === c[2] ? 1 : 0),
+    0
+  );
+};
+console.log(
+  points(["1:0", "2:0", "3:0", "4:4", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"])
+);
+*/
+
+/*
+8 kyu Reversed Words
+https://www.codewars.com/kata/51c8991dee245d7ddf00000e/train/javascript
+reverseWords = (str) => {
+  return str.split(" ").reverse().join(" ");
+};
+console.log(
+  reverseWords("The greatest victory is that which requires no battle")
+);
+*/
+
+/*
+8 kyu Abbreviate a Two Word Name
+https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+abbrevName = (name) =>
+  name
+    .split(" ")
+    .map((c) => c[0].toUpperCase())
+    .join(".");
+console.log(abbrevName("Sam Harris"));
+*/
