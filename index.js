@@ -141,3 +141,69 @@ console.log(uniqueInOrder("AAAABBBCCDAABBB"));
 console.log(uniqueInOrder("ABBCcAD"));
 console.log(uniqueInOrder([1, 2, 2, 3, 3]));
 */
+
+/*
+6 kyu Sort the odd
+https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/javascript
+sortArray = (array) => {
+  oddArr = array.filter((a) => a % 2 !== 0).sort((a, b) => a - b);
+  array.map((a, i) => a % 2 !== 0 && (array[i] = oddArr.shift()));
+  return array;
+};
+console.log(sortArray([9, 8, 7, 6, 5, 4, 3, 2, 13, 0]));
+*/
+
+/*
+7 kyu Converting 12-hour time to 24-hour time
+https://www.codewars.com/kata/59b0a6da44a4b7080300008a
+to24hourtime = (hour, minute, period) => {
+  formattedNum = (num) => String(num).padStart(2, "0");
+
+  if (period === "am" && hour === 12) {
+    hour = 0;
+  } else if (period === "pm" && hour !== 12) {
+    hour += 12;
+  }
+
+  return `${formattedNum(hour)}${formattedNum(minute)}`;
+};
+
+console.log(to24hourtime(12, 0, "am"));
+*/
+
+/*
+5 kyu A Chain adding function
+https://www.codewars.com/kata/539a0e4d85e3425cb0000a88
+add = (n) => {
+  return (x) => add(n + x);
+};
+console.log(add(5)(10)(15)(20));
+*/
+
+/*
+5 kyu Simple Pig Latin
+https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript
+const pigIt = (str) => {
+  return str
+    .split(" ")
+    .map((a) => {
+      return /^[a-zA-Z]+$/.test(a) ? a.slice(1) + a[0] + "ay" : a;
+    })
+    .join(" ");
+};
+
+console.log(pigIt("Pig latin is cool"));
+*/
+
+/*
+5 kyu ROT13
+https://www.codewars.com/kata/52223df9e8f98c7aa7000062/train/javascript
+rot13 = (str) => {
+  return str.replace(/[a-zA-Z]/g, (c) => {
+    return String.fromCharCode(
+      c.charCodeAt() > 109 ? c.charCodeAt() - 13 : c.charCodeAt() + 13
+    );
+  });
+};
+console.log(rot13("Guvf vf zl svefg EBG13 rkprepvfr!"));
+*/
