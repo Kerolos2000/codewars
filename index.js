@@ -243,3 +243,27 @@ abbrevName = (name) =>
     .join(".");
 console.log(abbrevName("Sam Harris"));
 */
+
+/*
+5 kyu Bit calculator
+https://www.codewars.com/kata/52ece9de44751a64dc0001d9/train/javascript
+converter = (num) =>
+  Number(
+    num
+      .split("")
+      .reverse()
+      .map((n, i) => n * 2 ** i) //https://media.geeksforgeeks.org/wp-content/uploads/20211220191513/binary.PNG
+      .reduce((a, c) => a + c)
+  );
+calculate = (a, b) => converter(a) + converter(b);
+console.log(calculate("11", "10"));
+
+//else solve calculate = (m,n) => Number(`0b${m}`) + Number(`0b${n}`) //0b for binary 0x for hex 0o for octal
+*/
+
+/*
+6 kyu One Line : Bit Calculator (Your code length should be less than 39 characters)
+https://www.codewars.com/kata/5afa9348db615d3cce00187e/train/javascript
+calculate=(a,b)=>+`0b${a}` + + `0b${b}`;
+console.log(calculate("11", "10"));
+*/
