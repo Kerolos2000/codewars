@@ -349,3 +349,25 @@ https://www.codewars.com/kata/58dced7b702b805b200000be/train/javascript
 distanceBetweenPoints=(a, b)=> Math.sqrt((b.x - a.x)**2 + (b.y - a.y)**2);
 console.log(distanceBetweenPoints({ x: 1, y: 3 }, { x: 4, y: 3 }));
 */
+
+/*
+8 kyu Stringy Strings
+https://www.codewars.com/kata/563b74ddd19a3ad462000054/train/javascript
+stringy = (size) =>
+  size % 2 === 0 ? "10".repeat(size / 2) : "10".repeat((size - 1) / 2) + "1";
+console.log(stringy(3));
+*/
+
+/*
+7 kyu Move 10
+https://www.codewars.com/kata/57cf50a7eca2603de0000090/solutions/javascript
+function moveTen(s) {
+  return s.replace(/[a-z]/g, (c) =>
+    String.fromCharCode(
+      c.charCodeAt() + 10 > 122 ? c.charCodeAt() - 10 : c.charCodeAt() + 10 //122 is (z) in ascii
+    )
+  );
+}
+
+console.log(moveTen("kero"));
+*/
