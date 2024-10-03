@@ -342,3 +342,10 @@ console.log(distanceBetweenPoints({ x: 1, y: 3, z: 6 }, { x: 4, y: 3, z: 2 }));
 https://www.codewars.com/kata/51fd6bc82bc150b28e0000ce/train/python
 noOdds = (values) => values.filter((v) => v % 2 == 0);
 */
+
+/*
+8 kyu Geometry Basics: Distance between points in 2D
+https://www.codewars.com/kata/58dced7b702b805b200000be/train/javascript
+distanceBetweenPoints=(a, b)=> Math.sqrt((b.x - a.x)**2 + (b.y - a.y)**2);
+console.log(distanceBetweenPoints({ x: 1, y: 3 }, { x: 4, y: 3 }));
+*/
