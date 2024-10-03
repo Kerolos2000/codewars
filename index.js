@@ -267,3 +267,78 @@ https://www.codewars.com/kata/5afa9348db615d3cce00187e/train/javascript
 calculate=(a,b)=>+`0b${a}` + + `0b${b}`;
 console.log(calculate("11", "10"));
 */
+
+/*
+5 kyu Calculating with Functions
+https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39/train/javascript
+zero = (fn) => {
+  return fn ? fn(0) : 0;
+};
+one = (fn) => {
+  return fn ? fn(1) : 1;
+};
+two = (fn) => {
+  return fn ? fn(2) : 2;
+};
+three = (fn) => {
+  return fn ? fn(3) : 3;
+};
+four = (fn) => {
+  return fn ? fn(4) : 4;
+};
+five = (fn) => {
+  return fn ? fn(5) : 5;
+};
+six = (fn) => {
+  return fn ? fn(6) : 6;
+};
+seven = (fn) => {
+  return fn ? fn(7) : 7;
+};
+eight = (fn) => {
+  return fn ? fn(8) : 8;
+};
+nine = (fn) => {
+  return fn ? fn(9) : 9;
+};
+
+function plus(r) {
+  return function (l) {
+    return l + r;
+  };
+}
+
+function minus(r) {
+  return function (l) {
+    return l - r;
+  };
+}
+
+function times(r) {
+  return function (l) {
+    return l * r;
+  };
+}
+
+function dividedBy(r) {
+  return function (l) {
+    return Math.floor(l / r);
+  };
+}
+console.log(seven(times(five()))); //35
+console.log(eight(minus(three()))); //5
+*/
+
+/*
+7 kyu Geometry Basics: Distance between points in 3D
+https://www.codewars.com/kata/58dceee2c9613aacb40000b9/train/javascript
+distanceBetweenPoints = (a, b) =>
+  Math.sqrt((b.x - a.x) ** 2 + (b.y - a.y) ** 2 + (b.z - a.z) ** 2);
+console.log(distanceBetweenPoints({ x: 1, y: 3, z: 6 }, { x: 4, y: 3, z: 2 }));
+*/
+
+/*
+7 kyu No oddities here
+https://www.codewars.com/kata/51fd6bc82bc150b28e0000ce/train/python
+noOdds = (values) => values.filter((v) => v % 2 == 0);
+*/
