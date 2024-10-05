@@ -258,7 +258,7 @@ converter = (num) =>
 calculate = (a, b) => converter(a) + converter(b);
 console.log(calculate("11", "10"));
 
-//else solve calculate = (m,n) => Number(`0b${m}`) + Number(`0b${n}`) //0b for binary 0x for hex 0o for octal
+// else solve calculate = (m,n) => Number(`0b${m}`) + Number(`0b${n}`) //0b for binary 0x for hex 0o for octal
 */
 
 /*
