@@ -371,3 +371,54 @@ function moveTen(s) {
 
 console.log(moveTen("kero"));
 */
+
+/*
+6 kyu The Vowel Code
+https://www.codewars.com/kata/53697be005f803751e0015aa/train/javascript
+const encodeDecode = {
+  a: "1",
+  e: "2",
+  i: "3",
+  o: "4",
+  u: "5",
+};
+
+const encode = (string) =>
+  string
+    .split("")
+    .map((x) => (x in encodeDecode ? encodeDecode[x] : x))
+    .join("");
+
+const decode = (string) => {
+  const reverseEncodeDecode = Object.fromEntries(
+    Object.entries(encodeDecode).map(([k, v]) => [v, k])
+  );
+
+  return string
+    .split("")
+    .map((x) => (x in reverseEncodeDecode ? reverseEncodeDecode[x] : x))
+    .join("");
+};
+
+console.log(encode("hello"));
+console.log(decode("h2ll4"));
+*/
+
+/*
+8 kyu Simple Comparison?
+https://www.codewars.com/kata/57f6ecdfcca6e045d2001207/train/javascript
+const add = (a, b) => a == b;
+console.log(add(1, "1"));
+*/
+
+/*
+7 kyu Elevator Distance
+https://www.codewars.com/kata/59f061773e532d0c87000d16/train/javascript
+elevatorDistance = (floors) => {
+  return floors.reduce((a, c, i, arr) => {
+    if (i == 0) return a;
+    return (a += Math.abs(c - arr[i - 1]));
+  }, 0);
+};
+console.log(elevatorDistance([7, 1, 7, 1]));
+*/
