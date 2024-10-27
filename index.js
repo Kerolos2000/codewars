@@ -442,3 +442,20 @@ ipsBetween = (start, end) => {
 
 console.log(ipsBetween("10.0.0.10", "10.0.0.50"));
 */
+
+/*
+7 kyu Alternate capitalization
+https://www.codewars.com/kata/59cfc000aeb2844d16000075/train/javascript
+capitalize = (s) => [
+  s
+    .split("")
+    .map((c, i) => (i % 2 ? c : c.toUpperCase()))
+    .join(""),
+  s
+    .split("")
+    .map((c, i) => (i % 2 ? c.toUpperCase() : c))
+    .join(""),
+];
+
+console.log(capitalize("abcdef"));
+*/
