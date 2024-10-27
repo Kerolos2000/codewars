@@ -422,3 +422,23 @@ elevatorDistance = (floors) => {
 };
 console.log(elevatorDistance([7, 1, 7, 1]));
 */
+
+/*
+8 kyu Calculate BMI
+https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript
+const bmi = (weight, height) => {
+  const bmi = weight / height ** 2;
+  return bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese";
+};
+*/
+
+/*
+5 kyu Count IP Addresses
+https://www.codewars.com/kata/526989a41034285187000de4/train/javascript
+ipsBetween = (start, end) => {
+  toNumeric = (ip) => ip.split(".").reduce((a, c) => a * 256 + +c);
+  return toNumeric(end) - toNumeric(start);
+};
+
+console.log(ipsBetween("10.0.0.10", "10.0.0.50"));
+*/
