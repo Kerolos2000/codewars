@@ -459,3 +459,21 @@ capitalize = (s) => [
 
 console.log(capitalize("abcdef"));
 */
+
+/*
+8 kyu Find the position!
+https://www.codewars.com/kata/5808e2006b65bff35500008f/train/javascript
+position = (c) => `Position of alphabet: ${c.charCodeAt() - 96}`;
+
+console.log(position("z"));
+*/
+
+/*
+8 kyu Double Char
+https://www.codewars.com/kata/56b1f01c247c01db92000076/train/javascript
+doubleChar = (str) =>
+  str
+    .split("")
+    .map((c) => c + c)
+    .join("");
+*/
