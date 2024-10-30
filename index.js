@@ -477,3 +477,37 @@ doubleChar = (str) =>
     .map((c) => c + c)
     .join("");
 */
+
+/*
+5 kyu Digitwise addition
+https://www.codewars.com/kata/663e0eccecb2d0a12da51f84/train/javascript
+digitwiseAddition = (n, k) => {
+  let x = n;
+  for (let i = 0; i < k; i++) {
+    x = [...x.toString()].map((e) => +e + 1).join("");
+  }
+  return x.length;
+};
+
+console.log(digitwiseAddition(9899, 3));
+*/
+
+/*
+4 kyu Most frequently used words in a text
+https://www.codewars.com/kata/51e056fe544cf36c410000fb/train/javascript
+
+  topThreeWords = (text) =>
+    Object.entries(
+      (text.toLowerCase().match(/[a-z]+[a-z']* /g) || [])
+        .reduce((a, c) => {
+          a[c] = (a[c] ?? 0) + 1;
+          return a;
+        }, {})
+    )
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map((c) => c[0]);
+  
+  
+  console.log(topThreeWords(` //wont won't won't`));
+*/
