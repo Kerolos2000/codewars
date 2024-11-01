@@ -518,3 +518,26 @@ https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/javascript
 
 numberToString=(num) => ''+num
 */
+
+/*
+6 kyu Multiples of 3 or 5
+https://www.codewars.com/kata/514b92a657cdc65150000006/train/javascript
+solution = (number) => {
+  let sum = 0;
+  for (let i = 0; i < number; i++) {
+    if (i % 3 == 0 || i % 5 == 0) {
+      sum += i;
+    }
+  }
+  return sum > 0 ? sum : 0;
+
+  -OR-
+
+  solution = (number) => number < 0 ? 0 :
+    Array.from({ length: number - 1 }, (_, i) => i + 1)
+      .filter((i) => i % 3 == 0 || i % 5 == 0)
+      .reduce((a, c) => a + c, 0);
+  
+  console.log(solution(10));
+};
+*/
