@@ -541,3 +541,16 @@ solution = (number) => {
   console.log(solution(10));
 };
 */
+
+/*
+6 kyu Bit Counting
+https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript
+
+countBits = (n) =>
+  n
+    .toString(2)
+    .split("")
+    .reduce((a, c) => (c === "1" ? a + 1 : a), 0);
+
+console.log(countBits(40));
+*/
