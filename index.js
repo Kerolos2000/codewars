@@ -511,3 +511,10 @@ https://www.codewars.com/kata/51e056fe544cf36c410000fb/train/javascript
   
   console.log(topThreeWords(` //wont won't won't`));
 */
+
+/*
+8 kyu Convert a Number to a String!
+https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/javascript
+
+numberToString=(num) => ''+num
+*/
