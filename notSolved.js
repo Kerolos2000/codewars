@@ -56,3 +56,7 @@ const parseIntFromWords = (str) => {
 };
 
 console.log(parseIntFromWords("one thousand two hundred thirty four"));
+
+//https://www.codewars.com/kata/53d3173cf4eb7605c10001a8/train/javascript
+//https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript
+//https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript

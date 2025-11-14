@@ -578,5 +578,52 @@ bubblesortOnce = (a) =>
 }
 
 console.log(bubblesortOnce([9, 7, 5, 3, 1, 2, 4, 6, 8]));
+*/
 
+/*
+7 kyu Sum of two lowest positive integers
+https://www.codewars.com/kata/558fc85d8fd1938afb000014/train/javascript
+
+function sumTwoSmallestNumbers(numbers) {
+  const sorted = numbers.sort((a, b) => a - b);
+  return sorted[0] + sorted[1];
+}
+
+console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]));
+*/
+
+/*
+8 kyu Remove String Spaces
+https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
+
+noSpace = x => x.replace(/\s/g, "")
+console.log(noSpace("test dsikofjdskl jklhjkdhjj kdsf"));
+*/
+
+/*
+8 kyu Convert number to reversed array of digits
+
+digitize = (n) => String(n).split("").map(Number).reverse();
+
+console.log(digitize(35231));
+*/
+
+/*
+8 kyu Removing Elements
+removeEveryOther = (arr) => arr.filter((_, i) => i % 2 === 0);
+console.log(
+  removeEveryOther([
+    1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1,
+    2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2,
+    3, 4, 5, 6,
+  ])
+);
+*/
+
+/*
+7 kyu Oh dear God! Is it bugged?
+
+isItBugged = (c) => /^\d{2}-\d{2}-\d{4} \d{2}:\d{2}$/.test(c);
+console.log(isItBugged("01-09-2016 01:20"));
+console.log(isItBugged("01_09_2016 01:20"));
 */
