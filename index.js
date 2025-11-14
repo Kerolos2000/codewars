@@ -627,3 +627,33 @@ isItBugged = (c) => /^\d{2}-\d{2}-\d{4} \d{2}:\d{2}$/.test(c);
 console.log(isItBugged("01-09-2016 01:20"));
 console.log(isItBugged("01_09_2016 01:20"));
 */
+
+/*
+8 kyu Sum Arrays
+sum = (numbers) => numbers.reduce((a, b) => a + b, 0);
+sum = (n) => n.reduce((a, b) => a + b, 0);
+*/
+
+/*
+8 kyu The 'if' function
+https://www.codewars.com/kata/54147087d5c2ebe4f1000805/train/javascript
+_if = (bool, func1, func2) => (bool ? func1() : func2());
+ */
+
+/*
+8 kyu Who ate the cookie?
+https://www.codewars.com/kata/55a996e0e8520afab9000055/train/javascript
+
+cookie = (x) => `Who ate the last cookie? It was ${ typeof x === "string" ? "Zach" : typeof x === "number" ? "Monica" : "dog"}!`
+
+another solve
+function cookie(x){
+  return `Who ate the last cookie? It was ${({string: "Zach", number: "Monica"}[typeof x] || "the dog")}!`;
+}
+*/
+
+/*
+8 kyu Plural
+https://www.codewars.com/kata/52ceafd1f235ce81aa00073a/train/javascript
+plural=n=>n!=1
+*/
