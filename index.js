@@ -707,3 +707,23 @@ groupByCommas = (n) =>
     console.log(groupByCommas(123456789));
     console.log(groupByCommas(1234567890));
     */
+
+/*
+8 kyu Is it a palindrome?
+https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
+
+isPalindrome=x=>x.split("").reverse().join("").toLowerCase()==x.toLowerCase()
+console.log(isPalindrome("abba"));
+*/
+
+/*
+6 kyu CamelCase Method
+https://www.codewars.com/kata/587731fda577b3d1b0001196/train/javascript
+String.prototype.camelCase = function () {
+  return this.split(" ")
+    .filter(Boolean)
+    .map((w) => w[0].toUpperCase() + w.slice(1))
+    .join("");
+};
+console.log(camelCase("test case"));
+*/
