@@ -657,3 +657,53 @@ function cookie(x){
 https://www.codewars.com/kata/52ceafd1f235ce81aa00073a/train/javascript
 plural=n=>n!=1
 */
+
+/*
+7 kyu Don't give me five!
+https://www.codewars.com/kata/5813d19765d81c592200001a/train/javascript
+
+dontGiveMeFive = (start, end) => {
+  let count = 0;
+  for (let i = start - 1; i < end; i++) {
+    if (!String(i).includes("5")) ++count;
+  }
+  return count;
+};
+
+another solve
+
+dontGiveMeFive = (start, end) => {
+  return Array.from({ length: end - start + 1 }, (_, i) => i + start).reduce(
+    (a, b) => (!String(b).includes("5") ? a + 1 : a),
+    0
+  );
+};
+
+console.log(dontGiveMeFive(4, 17));
+*/
+
+/*
+6 kyu Grouped by commas
+https://www.codewars.com/kata/5274e122fc75c0943d000148/train/javascript
+groupByCommas = (n) =>
+  String(n)
+    .split("")
+    .reverse()
+    .map((e, i) => (i > 0 && i % 3 === 0 ? e + "," : e))
+    .reverse()
+    .join("");
+
+    another solve
+    
+    groupByCommas = (n) => n.toLocaleString('en-US');
+    
+    console.log(groupByCommas(1));
+    console.log(groupByCommas(12));
+    console.log(groupByCommas(123));
+    console.log(groupByCommas(12345));
+    console.log(groupByCommas(123456));
+    console.log(groupByCommas(1234567));
+    console.log(groupByCommas(12345678));
+    console.log(groupByCommas(123456789));
+    console.log(groupByCommas(1234567890));
+    */
