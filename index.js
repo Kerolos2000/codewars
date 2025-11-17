@@ -727,3 +727,54 @@ String.prototype.camelCase = function () {
 };
 console.log(camelCase("test case"));
 */
+
+/*
+8 kyu Sum without highest and lowest number
+https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
+
+sumArray = (a) =>
+  a
+    ? a
+        .sort((x, y) => x - y)
+        .slice(1, -1)
+        .reduce((x, y) => x + y, 0)
+    : 0;
+console.log(sumArray([6, 2, 1, 8, 10]));
+*/
+
+/*
+8 kyu
+Filter out the geese
+https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript
+
+x = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+gooseFilter = (b) => b.filter((b) => !x.includes(b))
+
+console.log(
+  gooseFilter([
+    "Mallard",
+    "Hook Bill",
+    "African",
+    "Crested",
+    "Pilgrim",
+    "Toulouse",
+    "Blue Swedish",
+  ])
+);
+*/
+
+/*
+8 kyu
+MakeUpperCase
+https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
+makeUpperCase=s=>s.toUpperCase()
+
+console.log(makeUpperCase("test"));
+*/
+
+/*
+8 kyu Quarter of the year
+quarterOf = (m) => Math.ceil(m / 3);
+
+console.log(quarterOf(8));
+*/
