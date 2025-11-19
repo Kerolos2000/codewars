@@ -778,3 +778,68 @@ quarterOf = (m) => Math.ceil(m / 3);
 
 console.log(quarterOf(8));
 */
+
+/*
+8 kyu Rock Paper Scissors!
+https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/javascript
+
+rps = (p1, p2) =>
+  p1 === p2
+    ? 'Draw!'
+    : p1 === 'scissors' && p2 === 'paper' ||
+      p1 === 'rock' && p2 === 'scissors' ||
+      p1 === 'paper' && p2 === 'rock'
+    ? 'Player 1 won!'
+    : 'Player 2 won!'
+*/
+
+/*
+7 kyu Odds-Index
+https://www.codewars.com/kata/5a941f4e1a60f6e8a70025fe/train/javascript
+oddBall = (arr) => arr.includes(arr.findIndex((e) => e === "odd"));
+console.log(
+  oddBall([
+    "even",
+    4,
+    "even",
+    7,
+    "even",
+    55,
+    "even",
+    6,
+    "even",
+    10,
+    "odd",
+    3,
+    "even",
+  ])
+);
+*/
+
+/*
+5 kyu First non-repeating character
+firstNonRepeatingLetter = (s) => {
+  const result = s
+    .toLowerCase()
+    .split("")
+    .filter(
+      (e, _, arr) =>
+        arr.findIndex((x) => x === e) === arr.findLastIndex((x) => x === e)
+    )[0];
+
+  return result ?? "";
+};
+
+console.log(firstNonRepeatingLetter("sTtrereSS"));
+
+firstNonRepeatingLetter = (s) =>
+  s
+    .split("")
+    .filter(
+      (e, _, arr) =>
+        arr.findIndex((x) => x.toLowerCase() === e.toLowerCase()) ===
+        arr.findLastIndex((x) => x.toLowerCase() === e.toLowerCase())
+    )[0] ?? "";
+
+console.log(firstNonRepeatingLetter("sTereSS"));
+*/
