@@ -843,3 +843,25 @@ firstNonRepeatingLetter = (s) =>
 
 console.log(firstNonRepeatingLetter("sTereSS"));
 */
+
+/*
+5 kyu Swap Node Pairs In Linked List
+https://www.codewars.com/kata/59c6f43c2963ecf6bf002252/train/javascript
+
+swapPairs = (head) => {
+  return head.map((e, i, arr) => {
+    if ((i + 1) % 2 != 0 && i + 1 < arr.length) {
+      return arr[i + 1];
+    }
+    if ((i + 1) % 2 == 0) {
+      return arr[i - 1];
+    }
+    return e;
+  });
+};
+
+console.log("🚀 ~ swapPairs:", swapPairs(["a", "b", "c", "d"]));
+console.log("🚀 ~ swapPairs:", swapPairs(["a", "b", "c"]));
+console.log("🚀 ~ swapPairs:", swapPairs(["a", "b"]));
+console.log("🚀 ~ swapPairs:", swapPairs(["a"]));
+*/
