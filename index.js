@@ -865,3 +865,17 @@ console.log("🚀 ~ swapPairs:", swapPairs(["a", "b", "c"]));
 console.log("🚀 ~ swapPairs:", swapPairs(["a", "b"]));
 console.log("🚀 ~ swapPairs:", swapPairs(["a"]));
 */
+
+/*
+6 kyu Replace With Alphabet Position
+https://www.codewars.com/kata/546f922b54af40e1e90001da/train/javascript
+
+alphabetPosition = (t) => {
+  const FT = t.replace(/[^a-z]/gi, "").toLowerCase();
+  return FT.split("")
+    .map((_, i) => FT.charCodeAt(i) - 96)
+    .join(" ");
+};
+
+console.log(alphabetPosition("The sunset sets at twelve o' clock."));
+*/
