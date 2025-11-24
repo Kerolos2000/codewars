@@ -879,3 +879,27 @@ alphabetPosition = (t) => {
 
 console.log(alphabetPosition("The sunset sets at twelve o' clock."));
 */
+
+/*
+8 kyu Be Concise I - The Ternary Operator
+https://www.codewars.com/kata/56f3f6a82010832b02000f38/train/javascript
+
+describeAge=a=>a<=12?"You're a(n) kid":a>=13&&a<=17?"You're a(n) teenager":a>=18&&a<=64?"You're a(n) adult":"You're a(n) elderly"
+*/
+
+/*
+8 kyu Swap Values
+https://www.codewars.com/kata/5388f0e00b24c5635e000fc6/train/javascript
+
+swapValues = (args) => {
+  temp = args[0];
+  args[0] = args[1];
+  args[1] = temp;
+};
+
+another solve
+
+function swapValues(arr) {
+    return arr.reverse();
+}
+*/
