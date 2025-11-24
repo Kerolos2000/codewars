@@ -903,3 +903,34 @@ function swapValues(arr) {
     return arr.reverse();
 }
 */
+
+/*
+6 kyu Getting MAD
+https://www.codewars.com/kata/593a061b942a27ac940000a7/train/javascript
+
+gettingMad = (arr) => {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      newArr.push(Math.abs(arr[i] - arr[j]));
+    }
+  }
+  return Math.min(...newArr);
+};
+
+another solve
+
+gettingMad = (arr) =>
+  Math.min(
+    ...arr.flatMap((v, i) => arr.slice(i + 1).map((x) => Math.abs(v - x)))
+  );
+
+console.log(gettingMad([-10, 0, -3, 1]));
+*/
+
+/*
+8 kyu Opposite number
+https://www.codewars.com/kata/56dec885c54a926dcd001095/train/javascript
+
+opposite = (n) => -n;
+*/
