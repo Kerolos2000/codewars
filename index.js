@@ -964,7 +964,6 @@ console.log(solution(""));
 /*
 7 kyu Most digits
 https://www.codewars.com/kata/58daa7617332e59593000006/train/javascript
-*/
 
 const findLongest = (arr) => {
   return arr.reduce(
@@ -975,3 +974,16 @@ const findLongest = (arr) => {
 
 console.log(findLongest([49780, 12936]));
 console.log(findLongest([1, 10, 100]));
+*/
+
+/*
+7 kyu Vowel Count
+https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript
+
+getCount = (str) => str.length - str.split(/a|e|i|o|u/g).join("").length;
+
+another solve
+getCount = (str.match(/[aeiou]/ig)||[]).length
+
+console.log(getCount("abracadabra"));
+*/
