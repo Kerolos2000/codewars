@@ -987,3 +987,50 @@ getCount = (str.match(/[aeiou]/ig)||[]).length
 
 console.log(getCount("abracadabra"));
 */
+
+/*
+7 kyu KISS - Keep It Simple Stupid
+https://www.codewars.com/kata/57eeb8cc5f79f6465a0015c1/solutions/javascript
+
+isKiss = (words) => {
+  wordsArr = words.split(" ");
+
+  return Math.max(...wordsArr.map((e) => e.length)) > wordsArr.length
+    ? "Keep It Simple Stupid"
+    : "Good work Joe!";
+};
+
+console.log(isKiss("hi to me"));
+console.log(isKiss("hello to me"));
+*/
+
+/*
+7 kyu Javascript Mathematician
+https://www.codewars.com/kata/55c211cce1ef691d9b000061/train/javascript
+
+const calculate =
+  (...a) =>
+  (...b) =>
+    [...a, ...b].reduce((x, y) => x + y, 0);
+
+console.log(calculate(1, 2)(1));
+*/
+
+/*
+8 kyu Flick Switch
+https://www.codewars.com/kata/64fbfe2618692c2018ebbddb/train/javascript
+
+flickSwitch = (arr) => {
+  currentIndicator = true;
+  return arr.map((e) => {
+    if (e === "flick") {
+      currentIndicator = !currentIndicator;
+    }
+    return currentIndicator;
+  });
+};
+
+console.log(
+  flickSwitch(["codewars", "flick", "code", "wars", "flick", "test"])
+);
+*/
