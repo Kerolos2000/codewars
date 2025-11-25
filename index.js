@@ -934,3 +934,44 @@ https://www.codewars.com/kata/56dec885c54a926dcd001095/train/javascript
 
 opposite = (n) => -n;
 */
+
+/*
+6 kyu Break camelCase
+https://www.codewars.com/kata/5208f99aee097e6552000148/train/javascript
+
+solution = (string) => {
+  reg = /[A-Z]/g;
+  charArr = string.match(reg);
+
+  return string
+    .split(reg)
+    .map((c, i) => {
+      if (i === 0) return c;
+      return ` ${charArr[i - 1]}${c}`;
+    })
+    .join("");
+};
+
+another solve
+
+solution = s => s.replace(/([A-Z])/g, " $1")
+
+console.log(solution("camelCasingTest"));
+console.log(solution("camel"));
+console.log(solution(""));
+*/
+
+/*
+7 kyu Most digits
+https://www.codewars.com/kata/58daa7617332e59593000006/train/javascript
+*/
+
+const findLongest = (arr) => {
+  return arr.reduce(
+    (max, num) => (num.toString().length > max.toString().length ? num : max),
+    arr[0]
+  );
+};
+
+console.log(findLongest([49780, 12936]));
+console.log(findLongest([1, 10, 100]));
