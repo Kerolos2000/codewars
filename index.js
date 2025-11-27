@@ -1034,3 +1034,42 @@ console.log(
   flickSwitch(["codewars", "flick", "code", "wars", "flick", "test"])
 );
 */
+
+/*
+7 kyu Highest and Lowest
+https://www.codewars.com/kata/554b4ac871d6813a03000035/train/javascript
+
+highAndLow = (n) => {
+  z = n.split(" ");
+
+  return `${Math.max(...z)} ${Math.min(...z)}`;
+};
+
+console.log(highAndLow("1 2 3 4 5"));
+*/
+
+/*
+8 kyu Check same case
+https://www.codewars.com/kata/5dd462a573ee6d0014ce715b/train/javascript
+
+sameCase = (a, b) => {
+  return /[^a-zA-Z]/.test(a + b)
+    ? -1
+    : /^([a-z]{2}|[A-Z]{2})$/.test(a + b)
+    ? 1
+    : 0;
+};
+
+console.log(sameCase("@", "%"));
+*/
+
+/*
+8 kyu Closest elevator
+https://www.codewars.com/kata/5c374b346a5d0f77af500a5a/train/javascript
+
+elevator = (l, r, c) => {
+  cl = Math.abs(c - l);
+  cr = Math.abs(c - r);
+  return cl == cr || cl > cr ? "right" : "left";
+};
+*/
