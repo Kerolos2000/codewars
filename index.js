@@ -1081,3 +1081,28 @@ https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
 positiveSum = (arr) => arr.reduce((sum, n) => (n > 0 ? sum + n : sum), 0);
 console.log("🚀 ~ positiveSum:", positiveSum([1, 2, 3, 4, -5]));
 */
+
+/*
+7 kyu Elapsed Seconds
+https://www.codewars.com/kata/517b25a48557c200b800000c/train/javascript
+
+elapsedSeconds = (start, finish) => (finish - start) / 1000;
+
+console.log(
+  elapsedSeconds(new Date(2013, 1, 1, 0, 0, 1), new Date(2013, 1, 1, 0, 0, 2))
+);
+*/
+
+/*
+7 kyu Only one
+https://www.codewars.com/kata/5734c38da41454b7f700106e/train/javascript
+
+onlyOne = (...a) => a.reduce((s, c) => s + c) == 1;
+
+console.log(onlyOne(true, false, true));
+
+another solve 
+function onlyOne(...flags) {
+    return flags.filter(Boolean).length === 1;
+}
+*/
