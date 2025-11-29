@@ -1073,3 +1073,11 @@ elevator = (l, r, c) => {
   return cl == cr || cl > cr ? "right" : "left";
 };
 */
+
+/*
+8 kyu Sum of positive
+https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
+
+positiveSum = (arr) => arr.reduce((sum, n) => (n > 0 ? sum + n : sum), 0);
+console.log("🚀 ~ positiveSum:", positiveSum([1, 2, 3, 4, -5]));
+*/
