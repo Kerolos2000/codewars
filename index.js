@@ -1113,3 +1113,26 @@ https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
 
 smash = (w) => w.join(" ");
 */
+
+/*
+8 kyu Multiplication table for number
+https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/javascript
+
+multiTable = (n) =>
+  Array.from({ length: 10 })
+    .map((_, i) => `${i + 1} * ${n} = ${(i + 1) * n}`)
+    .join("\n");
+console.log("🚀 ~ multiTable:", multiTable(5));
+*/
+
+/*
+7 kyu Summing a number's digits
+https://www.codewars.com/kata/52f3149496de55aded000410/train/javascript 
+
+const sumDigits = n =>
+  String(Math.abs(n))
+    .split("")
+    .reduce((s, d) => s + +d, 0);
+    
+console.log("🚀 ~ sumDigits:", sumDigits(10));
+*/
