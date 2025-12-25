@@ -1106,3 +1106,10 @@ function onlyOne(...flags) {
     return flags.filter(Boolean).length === 1;
 }
 */
+
+/*
+8 kyu Sentence Smash
+https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
+
+smash = (w) => w.join(" ");
+*/
