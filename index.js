@@ -1136,3 +1136,15 @@ const sumDigits = n =>
     
 console.log("🚀 ~ sumDigits:", sumDigits(10));
 */
+
+/*
+8 kyu Grasshopper - Basic Function Fixer
+https://www.codewars.com/kata/56200d610758762fb0000002/train/javascript
+
+function addFive(num) {
+  var total = num + 5
+  return num
+}
+
+solve : addFive=(n)=> n+5
+*/
