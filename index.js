@@ -1148,3 +1148,21 @@ function addFive(num) {
 
 solve : addFive=(n)=> n+5
 */
+
+/*
+7 kyu Character Counter
+https://www.codewars.com/kata/56786a687e9a88d1cf00005d/train/javascript
+const validateWord = (s) => {
+  const freq = {};
+
+  for (const c of s.toLowerCase()) {
+    freq[c] = (freq[c] || 0) + 1;
+  }
+
+  const values = Object.values(freq);
+  return values.every((v) => v === values[0]);
+};
+
+console.log(validateWord("abcabc"));
+console.log(validateWord("abcabcd"));
+*/
