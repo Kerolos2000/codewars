@@ -1192,3 +1192,10 @@ https://www.codewars.com/kata/55c7f90ac8025ebee1000062/train/javascript
 sortArray = (v) => v.split("").sort().join("")
 console.log("🚀 ~ sortArray:", sortArray("54321"));
  */
+
+/*
+8 kyu Duck Duck Goose
+https://www.codewars.com/kata/582e0e592029ea10530009ce/train/javascript
+
+duckDuckGoose = (players, goose) => players[(goose - 1) % players.length].name;
+*/
