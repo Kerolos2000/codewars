@@ -1199,3 +1199,11 @@ https://www.codewars.com/kata/582e0e592029ea10530009ce/train/javascript
 
 duckDuckGoose = (players, goose) => players[(goose - 1) % players.length].name;
 */
+
+/*
+8 kyu Be Concise IV - Index of an element in an array
+https://www.codewars.com/kata/5703c093022cd1aae90012c9/train/javascript
+
+find=(a,e)=>a.indexOf(e)<0?"Not found":a.indexOf(e)
+console.log(find([1, 2, 3], 4));
+*/
