@@ -1207,3 +1207,12 @@ https://www.codewars.com/kata/5703c093022cd1aae90012c9/train/javascript
 find=(a,e)=>a.indexOf(e)<0?"Not found":a.indexOf(e)
 console.log(find([1, 2, 3], 4));
 */
+
+/*
+8 kyu Beginner - Reduce but Grow
+https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
+
+grow = (x) => x.reduce((s, n) => s * n);
+
+console.log(grow([1, 2, 3, 4]));
+*/
