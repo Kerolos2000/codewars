@@ -1166,3 +1166,29 @@ const validateWord = (s) => {
 console.log(validateWord("abcabc"));
 console.log(validateWord("abcabcd"));
 */
+
+/*
+7 kyu Broken Collatz
+https://www.codewars.com/kata/57e8c68c97a05990b10000c3/train/javascript
+
+collatz = (n) => {
+  count = 1;
+  while (n !== 1) {
+    n = n % 2 === 0 ? n / 2 : n * 3 + 1;
+    count++;
+  }
+  return count;
+};
+
+console.log(collatz(1, 0));
+console.log(collatz(10, 0));
+console.log(collatz(27, 0));
+*/
+
+/*
+7 kyu Failed Sort - Bug Fixing #4
+https://www.codewars.com/kata/55c7f90ac8025ebee1000062/train/javascript
+
+sortArray = (v) => v.split("").sort().join("")
+console.log("🚀 ~ sortArray:", sortArray("54321"));
+ */
