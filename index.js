@@ -1256,3 +1256,25 @@ https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
 
 evenOrOdd=(n)=> n%2==0?"Even":"Odd"
 */
+
+/*
+8 kyu Reversed Strings
+https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/javascript
+
+solution = (s) => s.split("").reverse().join("")
+console.log("🚀 ~ solution:", solution("kero"));
+*/
+
+/*
+7 kyu Disemvowel Trolls
+https://www.codewars.com/kata/52fba66badcd10859f00097e/train/javascript
+
+disemvowel = (s) => s.replace(/[aeiou]/gi, "");
+*/
+
+/*
+8 kyu Return Negative
+https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+
+makeNegative=(n)=> n>0?-n:n
+*/
