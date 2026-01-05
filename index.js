@@ -1242,3 +1242,17 @@ const vaporcode = (s) =>
 
 console.log(vaporcode("Testing for fixed tests"));
 */
+
+/*
+8 kyu Multiply
+https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
+
+multiply = (a, b) => a * b;
+*/
+
+/*
+8 kyu Even or Odd
+https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+
+evenOrOdd=(n)=> n%2==0?"Even":"Odd"
+*/
