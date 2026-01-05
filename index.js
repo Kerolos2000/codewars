@@ -1216,3 +1216,29 @@ grow = (x) => x.reduce((s, n) => s * n);
 
 console.log(grow([1, 2, 3, 4]));
 */
+
+/*
+7 kyu V A P O R C O D E
+https://www.codewars.com/kata/5966eeb31b229e44eb00007a/train/javascript
+
+vaporcode = (s) => {
+  return s
+    .replaceAll(" ", "")
+    .split("")
+    .map((e, i, a) =>
+      i <= a.length ? `${e.toUpperCase()}  ` : e.toUpperCase()
+    )
+    .join("");
+};
+
+
+another solve
+const vaporcode = (s) =>
+  s
+    .replaceAll(" ", "")
+    .toUpperCase()
+    .split("")
+    .join("  ");
+
+console.log(vaporcode("Testing for fixed tests"));
+*/
