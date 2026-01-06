@@ -1278,3 +1278,41 @@ https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 
 makeNegative=(n)=> n>0?-n:n
 */
+
+/*
+6 kyu Who likes it?
+https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+
+const likes = (names) => {
+  const [a, b, c] = names;
+  switch (names.length) {
+    case 0:
+      return "no one likes this";
+    case 1:
+      return `${a} likes this`;
+    case 2:
+      return `${a} and ${b} like this`;
+    case 3:
+      return `${a}, ${b} and ${c} like this`;
+    default:
+      return `${a}, ${b} and ${names.length - 2} others like this`;
+  }
+};
+*/
+
+/*
+6 kyu Create Phone Number
+https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
+
+createPhoneNumber = (n) =>
+  `(${n.slice(0, 3).join("")}) ${n.slice(3, 6).join("")}-${n
+    .slice(6, 10)
+    .join("")}`;
+
+another solve
+
+createPhoneNumber = (n) =>
+  n.join("").replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+
+console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+*/
