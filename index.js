@@ -1316,3 +1316,28 @@ createPhoneNumber = (n) =>
 
 console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 */
+
+/*
+7 kyu List Filtering
+https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript
+
+filter_list = (l) => l.filter((e) => typeof e == "number");
+
+another solve
+
+filter_list = (l) => l.filter(Number.isInteger);
+
+console.log(filter_list([1, 2, "a", "b"]));
+*/
+
+/*
+7 kyu Descending Order
+https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/javascript
+
+descendingOrder = (n) =>
+  +String(n)
+    .split("")
+    .sort((a, b) => b - a)
+    .join("");
+console.log("🚀 ~ descendingOrder:", descendingOrder(104));
+*/
