@@ -1341,3 +1341,27 @@ descendingOrder = (n) =>
     .join("");
 console.log("🚀 ~ descendingOrder:", descendingOrder(104));
 */
+
+/*
+7 kyu Square Every Digit
+https://www.codewars.com/kata/546e2562b03326a88e000020/train/javascript
+
+squareDigits = (n) => +String(n).split("").map((e) => e ** 2).join("");
+console.log("🚀 ~ squareDigits:", squareDigits(3212));
+*/
+
+/*
+7 kyu You're a square!
+https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
+
+isSquare = n => Number.isInteger(Math.sqrt(n));
+console.log("🚀 ~ isSquare:", isSquare(25));
+*/
+
+/*
+7 kyu Get the Middle Character
+https://www.codewars.com/kata/56747fd5cb988479af000028/train/javascript
+
+getMiddle = (s) => s.slice((s.length - 1) / 2, s.length / 2 + 1);
+console.log("🚀 ~ getMiddle:", getMiddle("test"));
+*/
