@@ -1365,3 +1365,18 @@ https://www.codewars.com/kata/56747fd5cb988479af000028/train/javascript
 getMiddle = (s) => s.slice((s.length - 1) / 2, s.length / 2 + 1);
 console.log("🚀 ~ getMiddle:", getMiddle("test"));
 */
+
+/*
+7 kyu Isograms
+https://www.codewars.com/kata/54ba84be607a92aa900000f1
+
+isIsogram = (str) => new Set(str.toLowerCase()).size === str.length;
+*/
+
+/*
+7 kyu Exes and Ohs
+https://www.codewars.com/kata/55908aad6620c066bc00002a
+
+XO = (str) => str.match(/x/gi)?.length === str.match(/o/gi)?.length;
+console.log(XO("xXtesOto"));
+*/
