@@ -1380,3 +1380,25 @@ https://www.codewars.com/kata/55908aad6620c066bc00002a
 XO = (str) => str.match(/x/gi)?.length === str.match(/o/gi)?.length;
 console.log(XO("xXtesOto"));
 */
+
+/*
+8 kyu Convert boolean values to strings 'Yes' or 'No'.
+https://www.codewars.com/kata/53369039d7ab3ac506000467/train/javascript
+
+boolToWord = (b) => (b ? "Yes" : "No");
+*/
+
+/*
+8 kyu String repeat
+https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
+
+repeatStr = (n, s) => s.repeat(n);
+*/
+
+/*
+8 kyu Remove First and Last Character
+https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript
+
+removeChar = (s) => s.slice(1, -1);
+console.log(removeChar("kero"));
+*/
