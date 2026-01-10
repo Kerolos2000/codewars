@@ -1402,3 +1402,16 @@ https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript
 removeChar = (s) => s.slice(1, -1);
 console.log(removeChar("kero"));
 */
+
+/*
+7 kyu String ends with?
+https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
+
+solution = (s, e) => e == s.slice(s.length - e.length);
+
+another solve
+
+solution = (str, ending) => str.endsWith(ending);
+
+console.log(solution("kero", "ro"));
+*/
