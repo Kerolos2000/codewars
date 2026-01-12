@@ -1415,3 +1415,12 @@ solution = (str, ending) => str.endsWith(ending);
 
 console.log(solution("kero", "ro"));
 */
+
+/*
+7 kyu Shortest Word
+https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
+
+findShort = (s) => Math.min(...s.split(" ").map((e) => e.length));
+
+console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+*/
