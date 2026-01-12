@@ -1424,3 +1424,16 @@ findShort = (s) => Math.min(...s.split(" ").map((e) => e.length));
 
 console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 */
+
+/*
+7 kyu Mumbling
+https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/javascript
+
+accum = (s) =>
+  s
+    .split("")
+    .map((e, i) => e.toUpperCase() + e.repeat(i).toLowerCase())
+    .join("-");
+
+console.log(accum("aBcd"));
+*/
