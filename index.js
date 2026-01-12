@@ -1437,3 +1437,27 @@ accum = (s) =>
 
 console.log(accum("aBcd"));
 */
+
+/*
+7 kyu Complementary DNA
+https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/javascript
+
+dnaStrand = (dna) =>
+  dna
+    .split("")
+    .map((e) => {
+      switch (e) {
+        case "A":
+          return "T";
+        case "T":
+          return "A";
+        case "C":
+          return "G";
+        case "G":
+          return "C";
+      }
+    })
+    .join("");
+
+console.log(dnaStrand("ATTCG"));
+*/
