@@ -1541,6 +1541,8 @@ square=n=>n*n
 7 kyu Find the stray number
 https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
 
+stray= (arr) => arr.reduce((a, c) => a ^ c, 0);
 
-stray=n=>n.filter(e=>e%2==1).length
+console.log(stray([1, 1, 2]));
+console.log(stray([17, 17, 3, 17, 17, 17, 17]));
 */
