@@ -1461,3 +1461,24 @@ dnaStrand = (dna) =>
 
 console.log(dnaStrand("ATTCG"));
 */
+
+/*
+8 kyu Sort and Star
+https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/javascript
+
+twoSort = s => s.sort()[0].split("").join("***");
+
+console.log(
+  twoSort([
+    "bitcoin",
+    "take",
+    "over",
+    "the",
+    "world",
+    "maybe",
+    "who",
+    "knows",
+    "perhaps",
+  ]),
+);
+*/
