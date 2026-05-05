@@ -1489,3 +1489,16 @@ https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript
 
 findSmallestInt=(arr) => Math.min(...arr);
 */
+
+
+/*
+8kyu How good are you really?
+https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
+
+const betterThanAverage = (arr, point) => {
+  const total = [...arr, point].reduce((a, b) => a + b, 0)
+  return point > total / (arr.length + 1)
+}
+console.log("🚀 ~ betterThanAverage:", betterThanAverage([2, 3],1))
+console.log("🚀 ~ betterThanAverage:", betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50))
+*/
