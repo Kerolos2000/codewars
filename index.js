@@ -1502,3 +1502,12 @@ const betterThanAverage = (arr, point) => {
 console.log("🚀 ~ betterThanAverage:", betterThanAverage([2, 3],1))
 console.log("🚀 ~ betterThanAverage:", betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50))
 */
+
+/*
+8 kyu Calculate average
+https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript
+
+findAverage = (arr) => arr.length ? arr.reduce((a,b)=>a+b) / arr.length : 0
+
+console.log(findAverage([1, 2, 3, 4, 5]));
+*/
