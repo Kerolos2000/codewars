@@ -1511,3 +1511,11 @@ findAverage = (arr) => arr.length ? arr.reduce((a,b)=>a+b) / arr.length : 0
 
 console.log(findAverage([1, 2, 3, 4, 5]));
 */
+
+/*
+8 kyu You only need one - Beginner
+https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/javascript
+
+check=(a,x) => a.includes(x)
+*/
+
