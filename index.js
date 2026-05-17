@@ -1490,7 +1490,6 @@ https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript
 findSmallestInt=(arr) => Math.min(...arr);
 */
 
-
 /*
 8kyu How good are you really?
 https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
@@ -1519,3 +1518,10 @@ https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/javascript
 check=(a,x) => a.includes(x)
 */
 
+/*
+7 kyu Sum Factorial
+https://www.codewars.com/kata/56b0f6243196b9d42d000034/train/javascript
+
+sumFactorial = (arr) =>
+  arr.reduce((s, n) => s + (n <= 1 ? 1 : n * sumFactorial([n - 1])), 0);
+*/
