@@ -1525,3 +1525,14 @@ https://www.codewars.com/kata/56b0f6243196b9d42d000034/train/javascript
 sumFactorial = (arr) =>
   arr.reduce((s, n) => s + (n <= 1 ? 1 : n * sumFactorial([n - 1])), 0);
 */
+
+/*
+8 kyu Function 2 - squaring an argument
+https://www.codewars.com/kata/523b623152af8a30c6000027/train/javascript
+
+square = (n) => n ** 2;
+
+OR
+
+square=n=>n*n
+*/
