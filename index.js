@@ -1546,3 +1546,11 @@ stray= (arr) => arr.reduce((a, c) => a ^ c, 0);
 console.log(stray([1, 1, 2]));
 console.log(stray([17, 17, 3, 17, 17, 17, 17]));
 */
+
+/*
+8 kyu Counting sheep...
+https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
+
+countSheeps =a=>a.filter(Boolean).length
+*/
+
