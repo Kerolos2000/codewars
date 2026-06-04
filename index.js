@@ -1551,6 +1551,12 @@ console.log(stray([17, 17, 3, 17, 17, 17, 17]));
 8 kyu Counting sheep...
 https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 
-countSheeps =a=>a.filter(Boolean).length
+countSheeps=a=>a.filter(Boolean).length
 */
 
+/*
+8 kyu get character from ASCII Value
+https://www.codewars.com/kata/55ad04714f0b468e8200001c/train/javascript
+
+getChar=c=>String.fromCharCode(c)
+*/
