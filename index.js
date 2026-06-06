@@ -1560,3 +1560,19 @@ https://www.codewars.com/kata/55ad04714f0b468e8200001c/train/javascript
 
 getChar=c=>String.fromCharCode(c)
 */
+
+/*
+8 kyu Drink about
+https://www.codewars.com/kata/56170e844da7c6f647000063/train/javascript
+
+peopleWithAgeDrink = (age) => {
+  const drinks = {
+    0: "drink toddy",
+    14: "drink coke",
+    18: "drink beer",
+    21: "drink whisky",
+  };
+
+  return drinks[Object.keys(drinks).reverse().find((key) => age >= key)];
+}
+*/
