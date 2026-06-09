@@ -1590,3 +1590,20 @@ const basicOp = (operation, value1, value2) =>
   })[operation];
 */
 
+/*
+8 kyu How old will I be in 2099?
+https://www.codewars.com/kata/5761a717780f8950ce001473/train/javascript
+
+const calculateAge = (birthYear, year) => {
+  const diff = year - birthYear;
+
+  if (diff === 0) return "You were born this very year!";
+
+  const years = Math.abs(diff) === 1 ? "year" : "years";
+
+  return diff > 0
+    ? `You are ${diff} ${years} old.`
+    : `You will be born in ${Math.abs(diff)} ${years}.`;
+};
+*/
+
