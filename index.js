@@ -1536,3 +1536,11 @@ OR
 
 square=n=>n*n
 */
+
+/*
+7 kyu Find the stray number
+https://www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
+
+
+stray=n=>n.filter(e=>e%2==1).length
+*/
